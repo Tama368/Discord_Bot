@@ -70,7 +70,7 @@
                             <transformers>
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>your.package.Main</mainClass>
+                                    <mainClass>Main</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
