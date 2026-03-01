@@ -35,7 +35,7 @@ jobs:
         run: mvn package -DskipTests
 
       # 5️⃣ Run bot
-      - name: Run Discord Notifier
+      - name: Run bot
         env:
           DISCORD_CHANNEL_GAMES: ${{ secrets.DISCORD_CHANNEL_GAMES }}
           DISCORD_CHANNEL_NEWS: ${{ secrets.DISCORD_CHANNEL_NEWS }}
@@ -44,13 +44,13 @@ jobs:
           STEAM_URL: ${{ secrets.STEAM_URL }}
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
 
-        run: java -jar target/SteamFreeGameBot-1.0-SNAPSHOT.jar
+        run: java -jar target/DiscordBot-1.0-SNAPSHOT.jar
 
       # 6️⃣ Optional: Show log content
       - name: Show log file
         run: cat games.json || echo "games.json not created"
 
-      # 7️⃣ Commit log CSV
+      # 7️⃣ Commit log
       - name: Commit log
         run: |
           git config --global user.name "GitHub Actions"
