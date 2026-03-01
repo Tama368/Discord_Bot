@@ -38,4 +38,9 @@ public class DiscordBot {
     public DiscordNotifier getNotifier() {
         return notifier;
     }
+
+    public void shutdown() {
+        for(JDA jda : bots) {
+        jda.shutdown();}
+    }
 }

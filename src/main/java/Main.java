@@ -49,6 +49,7 @@ public class Main {
                 System.out.println("Không có news mới hôm nay.");
             }
 
+            bot.shutdown();
             System.out.println("=== Done ===");
 
         } catch (Exception e) {
