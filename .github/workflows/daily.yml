@@ -41,6 +41,7 @@ jobs:
           DISCORD_CHANNEL_NEWS: ${{ secrets.DISCORD_CHANNEL_NEWS }}
           DISCORD_TOKENS: ${{ secrets.DISCORD_TOKENS }}
           GAME_LOG_PATH: ${{ secrets.GAME_LOG_PATH }}
+          NEWS_LOG_PATH: ${{ secrets.NEWS_LOG_PATH }}
           STEAM_URL: ${{ secrets.STEAM_URL }}
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
 
