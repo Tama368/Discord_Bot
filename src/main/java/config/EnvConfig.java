@@ -20,10 +20,6 @@ public final class EnvConfig {
             throw new IllegalStateException("Thiếu biến môi trường: " + key);
         }
 
-//        if (value.isEmpty()) {
-//            throw new IllegalStateException("Biến môi trường rỗng: " + key);
-//        }
-
         return Arrays.stream(value.split(","))
                 .map(String::trim)
                 .filter(s -> !s.isEmpty())

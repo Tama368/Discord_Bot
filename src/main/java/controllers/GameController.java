@@ -10,11 +10,11 @@ import java.util.Map;
 
 public class GameController {
 
-    private final SteamService steamService;
+    private final SteamService service;
     private final GameLog log;
 
     public GameController(SteamService steamService, GameLog log) {
-        this.steamService = steamService;
+        this.service = steamService;
         this.log = log;
     }
 
@@ -24,7 +24,7 @@ public class GameController {
     public List<Game> getNewFreeGames() throws Exception {
 
         // Game free hiện tại từ Steam
-        List<Game> currentFreeGames = steamService.fetchFreeGames();
+        List<Game> currentFreeGames = service.fetchFreeGames();
 
         // Game đã lưu trong log
         Map<Integer, Game> loggedGames = log.readAll();
@@ -61,7 +61,4 @@ public class GameController {
         }
     }
 
-    public List<Game> getCurrentFreeGames() throws Exception {
-        return steamService.fetchFreeGames();
-    }
 }

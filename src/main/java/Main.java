@@ -3,8 +3,8 @@ import controllers.GameController;
 import controllers.NewsController;
 import discord.DiscordBot;
 import discord.DiscordNotifier;
-import discord.builder.GameMessageBuilder;
 import log.GameLog;
+import log.NewsLog;
 import models.Game;
 import models.News;
 import services.NewsService;
@@ -20,10 +20,11 @@ public class Main {
 
             SteamService steamService = new SteamService();
             NewsService newsService = new NewsService();
-            GameLog log = new GameLog(EnvConfig.get("GAME_LOG_PATH").get(0));
+            GameLog gameLog = new GameLog(EnvConfig.get("GAME_LOG_PATH").get(0));
+            NewsLog newsLog = new  NewsLog(EnvConfig.get("NEWS_LOG_PATH").get(0));
 
-            GameController gameController = new GameController(steamService, log);
-            NewsController newsController = new  NewsController(newsService);
+            GameController gameController = new GameController(steamService, gameLog);
+            NewsController newsController = new  NewsController(newsService, newsLog);
 
             DiscordBot bot = new DiscordBot();
             DiscordNotifier notifier = bot.getNotifier();
@@ -32,6 +33,7 @@ public class Main {
 
             List<Game> newGames = gameController.getNewFreeGames();
             News news = newsController.getNews();
+
 
             if (!newGames.isEmpty()) {
                 for (Game g : newGames) {

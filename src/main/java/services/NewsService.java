@@ -8,34 +8,27 @@ import models.News;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.time.LocalDate;
 import java.time.OffsetDateTime;
-import java.time.ZoneOffset;
 
 public class NewsService {
 
     private static final String BASE_URL =
-            "https://newsapi.org/v2/everything";
+            "https://newsapi.org/v2/top-headlines";
 
     private final ObjectMapper objectMapper = new ObjectMapper();
 
-    public News fetchNews() throws Exception {
+    public News fetchNews(String category) throws Exception {
 
         String apiKey = EnvConfig.get("NEWS_API_KEY").get(0);
 
-        LocalDate yesterday = LocalDate.now(ZoneOffset.UTC).minusDays(1);
-        String from = yesterday + "T00:00:00";
-        String to   = yesterday + "T23:59:59";
-
         String urlString = BASE_URL
-                + "?q=a"
-                + "&from=" + from
-                + "&to=" + to
-                + "&language=en"
-                + "&sortBy=popularity"
+                + "?country=us"
+                + "&category=" + category
                 + "&pageSize=1"
                 + "&page=1"
                 + "&apiKey=" + apiKey;
+
+        System.out.println("URL: " + urlString);
 
         URL url = new URL(urlString);
         HttpURLConnection conn =
@@ -55,8 +48,7 @@ public class NewsService {
 
         InputStream is = conn.getInputStream();
 
-        JsonNode root =
-                objectMapper.readTree(is);
+        JsonNode root = objectMapper.readTree(is);
 
         if (!"ok".equals(root.get("status").asText())) {
             throw new RuntimeException("News API returned non-ok status");
