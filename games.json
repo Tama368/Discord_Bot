@@ -1,3 +1,18 @@
 {
-  "games" : [ ]
+  "games" : [ {
+    "id" : 978520,
+    "name" : "Legend of Keepers: Career of a Dungeon Manager",
+    "url" : "https://store.steampowered.com/app/978520/Legend_of_Keepers_Career_of_a_Dungeon_Manager/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-04-24T01:00:00"
+  }, {
+    "id" : 2792610,
+    "name" : "Stickman Killing Zombie",
+    "url" : "https://store.steampowered.com/app/2792610/Stickman_Killing_Zombie/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-04-20T01:00:00"
+  }, {
+    "id" : 3534240,
+    "name" : "Uncanny Tales: Cold Road",
+    "url" : "https://store.steampowered.com/app/3534240/Uncanny_Tales_Cold_Road/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-04-21T01:00:00"
+  } ]
 }
