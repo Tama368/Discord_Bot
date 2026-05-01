@@ -1,3 +1,8 @@
 {
-  "games" : [ ]
+  "games" : [ {
+    "id" : 934690,
+    "name" : "World of Warships — Marblehead Lima",
+    "url" : "https://store.steampowered.com/app/934690/World_of_Warships__Marblehead_Lima/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-05-08T01:00:00"
+  } ]
 }
