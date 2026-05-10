@@ -1,3 +1,8 @@
 {
-  "games" : [ ]
+  "games" : [ {
+    "id" : 3353830,
+    "name" : "LivingBattle",
+    "url" : "https://store.steampowered.com/app/3353830/LivingBattle/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-05-13T01:00:00"
+  } ]
 }
