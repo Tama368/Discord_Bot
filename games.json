@@ -1,3 +1,8 @@
 {
-  "games" : [ ]
+  "games" : [ {
+    "id" : 3587490,
+    "name" : "Terrors to Unveil - Day Off",
+    "url" : "https://store.steampowered.com/app/3587490/Terrors_to_Unveil__Day_Off/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-05-20T01:00:00"
+  } ]
 }
