@@ -9,5 +9,15 @@
     "name" : "AquaDream Soundtrack",
     "url" : "https://store.steampowered.com/app/3502050/AquaDream_Soundtrack/?snr=1_7_7_2300_150_1",
     "freeUntil" : "2026-05-26T01:00:00"
+  }, {
+    "id" : 489630,
+    "name" : "Warhammer 40,000: Gladius - Relics of War",
+    "url" : "https://store.steampowered.com/app/489630/Warhammer_40000_Gladius__Relics_of_War/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-05-29T00:00:00"
+  }, {
+    "id" : 645630,
+    "name" : "Car Mechanic Simulator 2018",
+    "url" : "https://store.steampowered.com/app/645630/Car_Mechanic_Simulator_2018/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-05-28T01:00:00"
   } ]
 }
