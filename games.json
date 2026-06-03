@@ -5,14 +5,14 @@
     "url" : "https://store.steampowered.com/app/1070580/Drift86/?snr=1_7_7_2300_150_1",
     "freeUntil" : "2026-06-04T00:00:00"
   }, {
-    "id" : 1035110,
-    "name" : "Moonrise Fall",
-    "url" : "https://store.steampowered.com/app/1035110/Moonrise_Fall/?snr=1_7_7_2300_150_1",
-    "freeUntil" : "2026-06-03T01:00:00"
-  }, {
     "id" : 858710,
     "name" : "Gravity Circuit",
     "url" : "https://store.steampowered.com/app/858710/Gravity_Circuit/?snr=1_7_7_2300_150_1",
     "freeUntil" : "2026-06-15T01:00:00"
+  }, {
+    "id" : 577740,
+    "name" : "Winexy",
+    "url" : "https://store.steampowered.com/app/577740/Winexy/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-06-06T01:00:00"
   } ]
 }
