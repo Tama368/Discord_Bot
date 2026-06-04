@@ -1,10 +1,5 @@
 {
   "games" : [ {
-    "id" : 1070580,
-    "name" : "Drift86",
-    "url" : "https://store.steampowered.com/app/1070580/Drift86/?snr=1_7_7_2300_150_1",
-    "freeUntil" : "2026-06-04T00:00:00"
-  }, {
     "id" : 858710,
     "name" : "Gravity Circuit",
     "url" : "https://store.steampowered.com/app/858710/Gravity_Circuit/?snr=1_7_7_2300_150_1",
