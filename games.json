@@ -4,5 +4,20 @@
     "name" : "Gravity Circuit",
     "url" : "https://store.steampowered.com/app/858710/Gravity_Circuit/?snr=1_7_7_2300_150_1",
     "freeUntil" : "2026-06-15T01:00:00"
+  }, {
+    "id" : 6100,
+    "name" : "Eets",
+    "url" : "https://store.steampowered.com/app/6100/Eets/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-06-16T01:00:00"
+  }, {
+    "id" : 1433340,
+    "name" : "Happy's Humble Burger Farm",
+    "url" : "https://store.steampowered.com/app/1433340/Happys_Humble_Burger_Farm/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-06-15T21:00:00"
+  }, {
+    "id" : 1053710,
+    "name" : "The Red Lantern",
+    "url" : "https://store.steampowered.com/app/1053710/The_Red_Lantern/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-06-19T01:00:00"
   } ]
 }
