@@ -1,3 +1,8 @@
 {
-  "games" : [ ]
+  "games" : [ {
+    "id" : 1986840,
+    "name" : "POPGOES Arcade",
+    "url" : "https://store.steampowered.com/app/1986840/POPGOES_Arcade/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-06-29T02:00:00"
+  } ]
 }
