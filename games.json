@@ -1,3 +1,8 @@
 {
-  "games" : [ ]
+  "games" : [ {
+    "id" : 606150,
+    "name" : "Moonlighter",
+    "url" : "https://store.steampowered.com/app/606150/Moonlighter/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-08-10T01:00:00"
+  } ]
 }
