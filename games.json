@@ -1,8 +1,3 @@
 {
-  "games" : [ {
-    "id" : 5004030,
-    "name" : "Microsoft Flight Simulator Suite: Themes Reimagined",
-    "url" : "https://store.steampowered.com/app/5004030/Microsoft_Flight_Simulator_Suite_Themes_Reimagined/?snr=1_7_7_2300_150_1",
-    "freeUntil" : "2026-09-02T01:00:00"
-  } ]
+  "games" : [ ]
 }
