@@ -1,3 +1,8 @@
 {
-  "games" : [ ]
+  "games" : [ {
+    "id" : 447700,
+    "name" : "Crystal Crisis",
+    "url" : "https://store.steampowered.com/app/447700/Crystal_Crisis/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-09-22T14:59:00"
+  } ]
 }
