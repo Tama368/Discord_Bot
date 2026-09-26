@@ -1,3 +1,8 @@
 {
-  "games" : [ ]
+  "games" : [ {
+    "id" : 4059370,
+    "name" : "Explosive Odds - Supporter Pack",
+    "url" : "https://store.steampowered.com/app/4059370/Explosive_Odds__Supporter_Pack/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-09-30T06:00:00"
+  } ]
 }
