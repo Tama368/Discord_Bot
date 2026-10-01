@@ -1,3 +1,8 @@
 {
-  "games" : [ ]
+  "games" : [ {
+    "id" : 4847440,
+    "name" : "MXGP 26 - Scrubdesignz Liveries",
+    "url" : "https://store.steampowered.com/app/4847440/MXGP_26__Scrubdesignz_Liveries/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-10-16T01:00:00"
+  } ]
 }
