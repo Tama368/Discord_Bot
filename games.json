@@ -14,5 +14,15 @@
     "name" : "Gear.Club Unlimited 3 - Gear.Club Signature Pack",
     "url" : "https://store.steampowered.com/app/4114140/GearClub_Unlimited_3__GearClub_Signature_Pack/?snr=1_7_7_2300_150_1",
     "freeUntil" : "2026-10-23T01:00:00"
+  }, {
+    "id" : 405640,
+    "name" : "Pony Island",
+    "url" : "https://store.steampowered.com/app/405640/Pony_Island/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-10-13T01:00:00"
+  }, {
+    "id" : 2283211,
+    "name" : "World of Warships — Ning Hai",
+    "url" : "https://store.steampowered.com/app/2283211/World_of_Warships__Ning_Hai/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-10-13T09:00:00"
   } ]
 }
