@@ -1,15 +1,5 @@
 {
   "games" : [ {
-    "id" : 4847440,
-    "name" : "MXGP 26 - Scrubdesignz Liveries",
-    "url" : "https://store.steampowered.com/app/4847440/MXGP_26__Scrubdesignz_Liveries/?snr=1_7_7_2300_150_1",
-    "freeUntil" : "2026-10-16T01:00:00"
-  }, {
-    "id" : 5067220,
-    "name" : "Rotwood: Drakin Armoury Pack",
-    "url" : "https://store.steampowered.com/app/5067220/Rotwood_Drakin_Armoury_Pack/?snr=1_7_7_2300_150_1",
-    "freeUntil" : "2026-10-16T01:00:00"
-  }, {
     "id" : 4114140,
     "name" : "Gear.Club Unlimited 3 - Gear.Club Signature Pack",
     "url" : "https://store.steampowered.com/app/4114140/GearClub_Unlimited_3__GearClub_Signature_Pack/?snr=1_7_7_2300_150_1",
@@ -19,5 +9,10 @@
     "name" : "Voidtrain - Big Catch",
     "url" : "https://store.steampowered.com/app/5007040/Voidtrain__Big_Catch/?snr=1_7_7_2300_150_1",
     "freeUntil" : "2026-10-20T01:00:00"
+  }, {
+    "id" : 4841320,
+    "name" : "Squad Weapon Skins - Recon Team Pack",
+    "url" : "https://store.steampowered.com/app/4841320/Squad_Weapon_Skins__Recon_Team_Pack/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-10-26T02:00:00"
   } ]
 }
