@@ -1,13 +1,13 @@
 {
   "games" : [ {
-    "id" : 4114140,
-    "name" : "Gear.Club Unlimited 3 - Gear.Club Signature Pack",
-    "url" : "https://store.steampowered.com/app/4114140/GearClub_Unlimited_3__GearClub_Signature_Pack/?snr=1_7_7_2300_150_1",
-    "freeUntil" : "2026-10-23T01:00:00"
-  }, {
     "id" : 4841320,
     "name" : "Squad Weapon Skins - Recon Team Pack",
     "url" : "https://store.steampowered.com/app/4841320/Squad_Weapon_Skins__Recon_Team_Pack/?snr=1_7_7_2300_150_1",
     "freeUntil" : "2026-10-26T02:00:00"
+  }, {
+    "id" : 5340370,
+    "name" : "Popcorn & Premieren - Ausgehviertel",
+    "url" : "https://store.steampowered.com/app/5340370/Popcorn_Premieren_Ausgehviertel/?snr=1_7_7_2300_150_1",
+    "freeUntil" : "2026-10-30T01:00:00"
   } ]
 }
